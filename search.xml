@@ -52,9 +52,52 @@
       </tags>
   </entry>
   <entry>
-    <title>testdraft</title>
+    <title>Hexo框架</title>
     <url>/2024/09/18/testdraft/</url>
-    <content><![CDATA[<h1 id="testdraft"><a href="#testdraft" class="headerlink" title="testdraft"></a>testdraft</h1><h2 id="this-is-a-draft"><a href="#this-is-a-draft" class="headerlink" title="this is a draft"></a>this is a draft</h2>]]></content>
+    <content><![CDATA[<p>本博客网站使用Hexo框架进行部署，这篇文章主要介绍了Hexo框架的安装和使用方法。</p>
+<h2 id="Hexo框架简介"><a href="#Hexo框架简介" class="headerlink" title="Hexo框架简介"></a>Hexo框架简介</h2><p>Hexo是一个快速、简洁且高效的博客部署框架，使用Markdown进行解析，生成静态网页。<br>Hexo的安装可以参考hexo官方网站<a class="button  regular" href='https://hexo.io/zh-cn/' title='Hexo官网'>Hexo官网</a><br>网站的配置文件在_config.yml文件中，使用YAML语法，可以配置网站的各种信息，如网站标题、网站描述、网站关键词、网站作者、网站语言、网站时区、网站主题、网站插件等。</p>
+<p>完成博客正文的撰写后，cd到hexo-blog文件夹路径，使用git工具进行部署</p>
+
+  <div class="note-large blue">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>部署</p>
+
+    </div>
+    <div class="notel-content">
+      <p>hexo generate #生成静态文件<br>hexo serve    #启动本地服务器<br>hexo deploy   #部署到服务器</p>
+
+    </div>
+  </div>
+
+<h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><h3 id="笔记模块"><a href="#笔记模块" class="headerlink" title="笔记模块"></a>笔记模块</h3>
+  <div class="note-large green">
+    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
+      <p>自定义标题</p>
+
+    </div>
+    <div class="notel-content">
+      <p>内容<br>支持换行</p>
+
+    </div>
+  </div>
+
+
+  <div class="note p-4 mb-4 rounded-small primary">
+    <p>primary 提示块标签</p>
+
+  </div>
+
+<h3 id="按钮模块"><a href="#按钮模块" class="headerlink" title="按钮模块"></a>按钮模块</h3><a class="button  [可选大小]" href='[url]' title='[Button]'><i class='[可选图标]'></i> [Button]</a>
+
+<h3 id="折叠模块"><a href="#折叠模块" class="headerlink" title="折叠模块"></a>折叠模块</h3><details class="[颜色]" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>[折叠块] </summary>
+              <div class='content'>
+              <p>折叠的内容</p>
+              </div>
+            </details>
+
+<h3 id="代码模块"><a href="#代码模块" class="headerlink" title="代码模块"></a>代码模块</h3><div class="tabs" id="tab-页面内不重复的id"><ul class="nav-tabs"><li class="tab active"><a class="#页面内不重复的id-1">栏目1名称</a></li><li class="tab"><a class="#页面内不重复的id-2">栏目2名称</a></li></ul><div class="tab-content"><div class="tab-pane active" id="页面内不重复的id-1"><p>栏目一的内容</p></div><div class="tab-pane" id="页面内不重复的id-2"><p>栏目二的内容</p></div></div></div>
+<h3 id="公式插入"><a href="#公式插入" class="headerlink" title="公式插入"></a>公式插入</h3><p>$$<br>i\hbar\frac{\partial}{\partial t}\psi&#x3D;-\frac{\hbar^2}{2m}\nabla^2\psi+V\psi<br>$$ </p>
+<h3 id="代码块的插入"><a href="#代码块的插入" class="headerlink" title="代码块的插入"></a>代码块的插入</h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;this is a test&#x27;</span>)</span><br></pre></td></tr></table></figure></div>]]></content>
   </entry>
   <entry>
     <title>华为工作法</title>
@@ -71,8 +114,8 @@
 </ol>
 ]]></content>
       <tags>
-        <tag>笔记</tag>
         <tag>工作</tag>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
 </search>
