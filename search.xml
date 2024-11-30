@@ -131,7 +131,7 @@
 <h3 id="模拟"><a href="#模拟" class="headerlink" title="模拟"></a>模拟</h3><p>在该模型中，闪烁效应作用于时间尺度的信号上时，是通过一个AM调制器完成的，将闪烁映射成为一个服从某种分布的噪声N，噪声谱密度是由闪烁因子决定的。Amplifier是电放大器，其噪声谱密度来源于前面的LaserDriver，而该driver的偏置是（这里还不知是为何这样表示）。最后驱动AM调制器的电信号是噪声N经过了指数运算后，加了直流偏置的信号，然后调制了进入的光场。<br>而衰减模型利用的是式(1.6)，调整输出点前的光衰减器，完成模拟。</p>
 ]]></content>
       <tags>
-        <tag>FSO Turbulence Scintillation</tag>
+        <tag>FSO</tag>
       </tags>
   </entry>
 </search>
